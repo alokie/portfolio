@@ -81,7 +81,6 @@
 }
 
 .skills {
-    width: 1308px;
     height: 425px;
     background-color: white;
     display: flex;
@@ -122,55 +121,37 @@
 
 /**               Experience      **/
 
-.experience p {
-    color: #725AC1;
+.experience-title p {
     font-size: 100px;
-    margin-top: 300px;
+    color: #725AC1;
+    margin-top: 120px;
 }
 
-.experience-boxi {
+.experience {
+    height: 1000px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.experience-boxii {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.experience-box1{
+.experience-box{
     height: 400px;
     width: 520px;
-    background-color: #DAD2D8;
+    margin: 40px;
     border-radius: 25px;
-    margin-top: 50px;
-    
+    background-color: white;
+
 }
 
-.experience-box2{
-    height: 400px;
-    width: 520px;
-    background-color: #DAD2D8;
-    border-radius: 25px;
-    margin-top: 50px;
-    
-}
 
-.experience-box3{
-    height: 400px;
-    width: 520px;
-    background-color: #DAD2D8;
-    border-radius: 25px;
-    margin-top: 50px;
-    
-}
 
-.experience-box4{
-    height: 400px;
-    width: 520px;
-    background-color: #DAD2D8;
+.experience-box p {
+    background-color: white;
     border-radius: 25px;
-    margin-top: 50px;
+    color: #725AC1;
+    font-size: 50px;
+    margin-left: 20px;
     
 }
 
@@ -188,6 +169,5 @@
    color: #6B654B;
    width: 100%;
    align-items: center;
-   margin-left: 500px;
 }
 
